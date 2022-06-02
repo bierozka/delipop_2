@@ -1,0 +1,2169 @@
+@font-face{
+    font-family: 'AkkuratLL-Bold';
+    src:url('fonty/fonty/AkkuratLL-Bold.otf') format('truetype');
+}
+@font-face{
+    font-family: 'SharpGrotesk-Bold25';
+    src:url('fonty/fonty/SharpGrotesk-Bold25.otf') format('truetype');
+}
+@font-face{
+    font-family: 'AkkuratLL-Regular';
+    src:url('fonty/fonty/AkkuratLL-Regular.otf') format('truetype');
+}
+@font-face{
+    font-family: 'SharpGrotesk-Book20';
+    src:url('fonty/fonty/SharpGrotesk-Book20.otf') format('truetype');
+}
+@font-face{
+    font-family: 'SharpGrotesk-Light20';
+    src:url('fonty/fonty/SharpGrotesk-Light20.otf') format('truetype');
+}
+@font-face{
+    font-family: 'SharpGrotesk-Medium20';
+    src:url('fonty/fonty/SharpGrotesk-Medium20.otf') format('truetype');
+}
+.elipse{
+    top:50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+html, body{
+    width: 100%;
+    margin:auto;
+    overflow-x:hidden;
+}
+button {
+    cursor: pointer;
+    padding: 0px;
+    border: none;
+    background:none;
+    color: #003B39;
+}
+.container_1{
+    position:relative;
+    text-align: center;
+}
+
+.bg{
+    position:relative;
+}
+
+.bgg{
+    position:relative;
+  
+}
+
+#logo{
+    position:absolute;
+    top:7px;
+    left:30px;
+}
+#menu_1{
+    position:absolute;
+    top:14px;
+    right:285px;
+    font-family: 'AkkuratLL-Bold';
+    font-size:16px;
+    letter-spacing: -1px;
+    line-height: 63px;
+    text-align: center;
+    color:#003B39;
+    
+}
+#menu_2{
+    position:absolute;
+    top:14px;
+    right:190px;
+    font-family: 'AkkuratLL-Bold';
+    font-size:16px;
+    letter-spacing: -1px;
+    line-height: 63px;
+    text-align: center;
+    color:#003B39;
+    
+}
+#menu_3{
+    position:absolute;
+    top:25px;
+    right:30px;
+}
+.everyday{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:56px;
+    letter-spacing: -1px;
+    line-height: 53px;
+    text-align: center;
+    color: white;
+    position:absolute;
+    left: 180px;
+    bottom: 430px;
+}
+.magical{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:56px;
+    letter-spacing: -1px;
+    line-height: 53px;
+    text-align: center;
+    color: #003B39;
+    position:absolute;
+    left: 195px;
+    bottom: 323px;
+}
+.groceries{
+    font-family: "AkkuratLL-Regular";
+    font-size:18px;
+    letter-spacing: -1px;
+    line-height: 24px;
+    text-align: center;
+    color: #003B39;
+    position:absolute;
+    left: 195px;
+    bottom: 235px;
+}
+#watch{
+    position:absolute;
+    bottom:145px;
+    left:165px;
+}
+.woman{
+    position:absolute;
+    left: 125px;
+    bottom: 165px;
+}
+.container_2{
+    position: relative;
+    text-align: center;
+    background-color:#05DC61 ;
+}
+.bg_1{
+    position: relative;
+    width:100%
+}
+
+.see{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:56px;
+    letter-spacing: -1px;
+    line-height: 53px;
+    text-align: center;
+    color: white;
+    position:absolute;
+    left: 200px;
+    top: 310px;
+}
+.all_about{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:56px;
+    letter-spacing: -1px;
+    line-height: 53px;
+    text-align: center;
+    color: #003B39;
+    position:absolute;
+    left: 180px;
+    top: 360px;
+}
+#groceries_2{
+    bottom:265px;
+    left:185px;
+}
+
+.play{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+.container_3{
+    position: relative;
+    text-align:center;
+    background-color: #1991FF;
+}
+.discover{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:44px;
+    letter-spacing: -1px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+    position:absolute;
+    left: 80px;
+    top: 200px;
+}
+.creates{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:44px;
+    letter-spacing: -1px;
+    line-height: 42px;
+    text-align: center;
+    color:#003B39;
+    position:absolute;
+    left: 100px;
+    top: 285px;
+}
+.woman_2{
+    margin-bottom:40px;
+    padding-bottom:40px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-21%, 0%);
+}
+.open{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:33px;
+    letter-spacing: -1px;
+    line-height: 33px;
+    text-align: center;
+    color:white;
+    position:absolute;
+    right: 170px;
+    top: 180px;
+
+}
+.long{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:33px;
+    letter-spacing: -1px;
+    line-height: 33px;
+    text-align: center;
+    color:#003B39;
+    position:absolute;
+    right: 215px;
+    top: 215px;
+}
+.convenient{
+    font-family: "AkkuratLL-Regular";
+    font-size:18px;
+    letter-spacing: -1px;
+    line-height: 24px;
+    text-align: center;
+    color:#003B39;
+    position:absolute;
+    right: 165px;
+    top: 260px;
+}
+.container_4{
+    position: relative;
+    text-align:center;
+    background-color: #FF79AC;
+}
+.discover{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:44px;
+    letter-spacing: -1px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+    position:absolute;
+    left: 80px;
+    top: 200px;
+}
+.creates{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:44px;
+    letter-spacing: -1px;
+    line-height: 42px;
+    text-align: center;
+    color:#003B39;
+    position:absolute;
+    left: 100px;
+    top: 285px;
+}
+.guy{
+    margin-bottom:40px;
+    padding-bottom:40px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-21%, 0%);
+}
+.smooth{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:33px;
+    letter-spacing: -1px;
+    line-height: 33px;
+    text-align: center;
+    color:white;
+    position:absolute;
+    right: 120px;
+    top: 180px;
+
+}
+.buttering{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:33px;
+    letter-spacing: -1px;
+    line-height: 33px;
+    text-align: center;
+    color:#003B39;
+    position:absolute;
+    right: 135px;
+    top: 215px;
+}
+.effort{
+    font-family: "AkkuratLL-Regular";
+    font-size:18px;
+    letter-spacing: -1px;
+    line-height: 24px;
+    text-align: center;
+    color:#003B39;
+    position:absolute;
+    right: 155px;
+    top: 280px;
+}
+.container_5{
+    position: relative;
+    text-align:center;
+    background-color: #FFEB3E;
+}
+.discover_2{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:44px;
+    letter-spacing: -1px;
+    line-height: 42px;
+    text-align: center;
+    color:#003B39;
+    position:absolute;
+    left: 80px;
+    top: 200px;
+}
+.creates{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:44px;
+    letter-spacing: -1px;
+    line-height: 42px;
+    text-align: center;
+    color:#003B39;
+    position:absolute;
+    left: 100px;
+    top: 285px;
+}
+.grocery_guy{
+    margin-bottom:40px;
+    padding-bottom:40px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-21%, 0%);
+}
+.always{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:33px;
+    letter-spacing: -1px;
+    line-height: 33px;
+    text-align: center;
+    color:#003B39;
+    position:absolute;
+    right: 210px;
+    top: 180px;
+
+}
+.suprise{
+    font-family: "AkkuratLL-Regular";
+    font-size:18px;
+    letter-spacing: -1px;
+    line-height: 24px;
+    text-align: center;
+    color:#003B39;
+    position:absolute;
+    right: 180px;
+    top: 250px;
+}
+.container_6{
+    position: relative;
+    text-align:center;
+    background-color: #FF79AC;
+}
+.shopping{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:44px;
+    letter-spacing: -1px;
+    line-height: 43px;
+    text-align: center;
+    color:white;
+    padding-top:50px;
+
+}
+.walk{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:44px;
+    letter-spacing: -1px;
+    line-height: 43px;
+    text-align: center;
+    color:#003B39;
+    margin-top:-15px;
+    margin-bottom:30px;
+
+}
+.steps{
+    margin-bottom:30px;
+    padding-bottom:30px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-5%, 0%);
+}
+.phone{
+    margin-bottom:30px;
+    padding-bottom:30px;
+    right: 50%;
+    margin-left: -7%;
+}
+.container_7{
+    position: relative;
+    text-align:center;
+    background-color: #05DC61;
+}
+
+.drzewko{
+    padding-left:100px;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.care{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:56px;
+    letter-spacing: -1px;
+    line-height: 53px;
+    text-align: center;
+    color:white;
+    position:absolute;
+    top:220px;
+    left:50px;
+}
+.world{
+    font-family: "SharpGrotesk-Bold25";
+    font-size:56px;
+    letter-spacing: -1px;
+    line-height: 53px;
+    text-align: center;
+    color:#003B39;
+    position:absolute;
+    top:270px;
+    left:85px;
+}
+.break{
+    font-family: "AkkuratLL-Regular";
+    font-size:18px;
+    letter-spacing: -1px;
+    line-height: 24px;
+    text-align: center;
+    color:#003B39;
+    position:absolute;
+    top:380px;
+    left:40px;
+}
+.container_8{
+    text-align:left;
+    background-color:#003B39;
+    color:white;
+}
+.about{
+font-family: "AkkuratLL-Bold";
+    font-size:20px;
+    letter-spacing: 0px;
+    line-height: 66px;
+ 
+}
+.details{
+font-family: "AkkuratLL-Regular";
+    font-size:16px;
+    letter-spacing: 0px;
+    line-height: 10px;
+}
+
+    #footer{
+        bottom:0px;
+        left:1300px;
+        font-size:23.4px;
+        line-height: 36px;
+    }
+    .policy{
+        padding-left:58px;
+    margin-left:58px;
+        font-family: "AkkuratLL-Regular";
+    font-size:16px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    white-space:nowrap;
+        }
+        .copyrights{
+            padding-left:-58px;
+    margin-left:-78px;
+            font-family: "AkkuratLL-Regular";
+            font-size:16px;
+            letter-spacing: 0px;
+            line-height: 10px;
+            white-space:nowrap;
+        }
+        #social{
+        margin-bottom:40px;
+        padding-top:-30px;
+        margin-top:-30px;
+        margin-left:-10px;
+        padding-left:-10px;
+        }
+        .box{
+            border: 72px solid transparent;
+          }
+        
+        .box1{
+            border: 36px 36px 0px 0px solid transparent;
+        }
+        #uno{
+            padding-left:30px;
+    margin-left:30px;
+    white-space:nowrap;
+        }
+        #dos{
+            padding-left:-50px;
+    margin-left:-50px;
+    white-space:nowrap;
+        }
+        #tres{
+            padding-left:-100px;
+            margin-left:-100px;
+            white-space:nowrap;
+        }
+        #cuatro{
+            padding-left:-90px;
+            margin-left:-90px;
+            white-space:nowrap;
+        }
+    
+        @media only screen and (min-width:2560px){
+
+
+            #logo img{
+                width: 440.51px;
+                height: auto;
+            }
+            #logo{
+                top:14.21px;
+                left:60.9px;
+            }
+
+    
+            .elipse{
+                width:2174px;
+                height:auto;
+            }
+#menu_1{
+    top:28.42px;
+    right:578.55px;
+    font-size:32.48px;
+    line-height:127.89px;
+
+}
+#menu_2{
+    top:28.42px;
+    right:385.7px;
+    font-size:32.48px;
+    line-height: 127.89px;
+}
+
+#menu_3{
+    top:50.75px;
+    right: 60.9px;
+}
+#menu_3 img{
+width:219.24px;
+height:auto;
+}
+
+.everyday{
+    font-size:100.8px;
+    line-height: 95.4px;
+    left: 324px;
+    bottom: 774px;
+}
+.magical{
+    font-size:100.8px;
+    line-height: 95.4px;
+    left: 351px;
+    bottom: 581.4px;
+}
+.groceries{
+    font-size:32.4px;
+    line-height: 43.2px;
+    left: 351px;
+    bottom: 423px;
+}
+#watch{
+    bottom:261px;
+    left:297px;
+}
+#watch img{
+    width:765px;
+    height:auto;
+}
+.woman{
+    left: 225px;
+    bottom: 297px;
+    width:909px;
+    height:auto;
+}
+
+.see{
+    font-size:100.8px;
+    line-height: 95.4px;
+    left: 360px;
+    top: 558px;
+}
+.all_about{
+    font-size:100.8px;
+    line-height: 95.4px;
+    left: 324px;
+    top: 648px;
+}
+#groceries_2{
+    bottom:400px;
+    left:333px;
+}
+.play{
+    width:253.8px;
+    height:auto;
+    
+}
+
+.discover{
+    font-size:79.2px;
+    line-height: 75.6px;
+    left: 144px;
+    top: 360px;
+}
+.creates{
+    font-size:79.2px;
+    line-height: 75.6px;
+    left: 180px;
+    top: 513px;
+}
+.woman_2{
+    margin-bottom:72px;
+    padding-bottom:72px;
+    width:909px;
+    height:auto;
+}
+.open{
+    font-size:59.4px;
+    line-height: 59.4px;
+    right: 306px;
+    top: 324px;
+
+}
+.long{
+    font-size:59.4px;
+    line-height: 59.4px;
+    right: 387px;
+    top: 387px;
+}
+.convenient{
+    font-size:32.4px;
+    line-height: 43.2px;
+    right: 297px;
+    top: 468px;
+}
+
+.guy{
+    margin-bottom:72px;
+    padding-bottom:72px;
+    width:860.4px;
+    height:auto;
+}
+.smooth{
+    font-size:59.4px;
+    line-height: 59.4px;
+    right: 216px;
+    top: 324px;
+
+}
+.buttering{
+    font-size:59.4px;
+    line-height: 59.4px;
+    right: 243px;
+    top: 387px;
+}
+.effort{
+    font-size:32.4px;
+    line-height: 43.2px;
+    right: 279px;
+    top: 504px;
+}
+
+.discover_2{
+    font-size:79.2px;
+    line-height: 75.6px;
+    left: 144px;
+    top: 360px;
+}
+
+.grocery_guy{
+    margin-bottom:72px;
+    padding-bottom:72px;
+    width: 1015.2px;
+    height:auto;
+}
+.always{
+    font-size:59.4px;
+    line-height: 59.4px;
+    right: 378px;
+    top: 324px;
+
+}
+.suprise{
+    font-size:32.4px;
+    line-height: 43.2px;
+    right: 324px;
+    top: 450px;
+}
+
+
+.shopping{
+    font-size:79.2px;
+    line-height: 77.4px;
+    padding-top:90px;
+
+}
+.walk{
+    font-size:79.2px;
+    line-height: 77.4px;
+    margin-top:-20px;
+    margin-bottom:54px;
+
+}
+.steps{
+    margin-bottom:54px;
+    padding-bottom:54px;
+    width:1037.8px;
+    height:auto;
+}
+.phone{
+    margin-bottom:54px;
+    padding-bottom:54px;
+    width:738px;
+    height:auto;
+}
+
+
+.drzewko{
+    padding-left:180px;
+    padding-top:180px;
+    padding-bottom:200px;
+    width:707.4px;
+    height:auto;
+}
+.care{
+    font-size:100.8px;
+    line-height: 95.4px;
+    top:336px;
+    left:90px;
+}
+.world{
+    font-size:100.8px;
+    line-height: 95.4px;
+    top:426px;
+    left:153px;
+}
+.break{
+    font-size:32.4px;
+    line-height: 43.2px;
+    top:624px;
+    left:72px;
+}
+
+.about{
+    font-size:36px;
+    line-height: 118.8px;
+ 
+}
+.details{
+    font-size:28.8px;
+    line-height: 25px;
+}
+
+#footer{
+    left:2340px;
+    font-size:42.12px;
+    line-height: 64.8px;
+}
+
+.policy{
+    padding-left:104.4px;
+    margin-left:104.4px;
+    font-size:28.8px;
+    line-height: 18px;
+}
+
+.copyrights{
+    padding-left:-104.4px;
+    margin-left:-140.4px;
+    font-size:28.8px;
+    line-height: 18px;
+}
+
+#social{
+    margin-bottom:72px;
+    padding-top:-54px;
+    margin-top:-54px;
+    margin-left:-18px;
+    padding-left:-18px;
+}
+
+.box{
+    border: 129.6px solid transparent;
+}
+        
+.box1{
+    border: 64.8px 64.8px 0px 0px solid transparent;
+}
+
+#uno{
+    padding-left:44px;
+    margin-left:44px;
+}
+
+#dos{
+    padding-left:-100px;
+    margin-left:-100px;
+}
+
+#tres{
+    padding-left:-160px;
+    margin-left:-160px;
+}
+
+#cuatro{
+    padding-left:-142px;
+    margin-left:-142px;
+}
+.fb{
+    width:117px;
+    height:auto;
+}
+.insta{
+    width:120.6px;
+    height:auto;
+}
+.tumblr{
+    width:118.8px;
+    height:auto;
+}
+
+.contact{
+    width:356.4px;
+    height:auto;
+    margin-top:25px;
+}
+
+}
+
+@media only screen and (min-width:1440px) and (max-width: 2559px){
+
+       #logo img{
+        width: 244.73px;
+        height: auto;
+    }
+    #logo{
+        top:7.89px;
+        left:33.83px;
+    }
+    .elipse{
+        width:1207.78px;
+        height:auto;
+    }
+#menu_1{
+top:15.79px;
+right:321.42px;
+font-size:18.04px;
+line-height:71.05px;
+
+}
+#menu_2{
+    top:15.79px;
+    right:214.28px;
+    font-size:18.04px;
+    line-height: 71.05px;
+}
+
+#menu_3{
+    top:28.19px;
+    right: 33.83px;
+}
+#menu_3 img{
+width:121.8px;
+height:auto;
+}
+
+.everyday{
+    font-size:56px;
+    line-height: 53px;
+    left: 180px;
+    bottom: 430px;
+}
+.magical{
+    font-size:56px;
+    line-height: 53px;
+    left: 195px;
+    bottom: 323px;
+}
+.groceries{
+    font-size:18px;
+    line-height: 24px;
+    left: 195px;
+    bottom: 235px;
+}
+#watch{
+    bottom:145px;
+    left:165px;
+}
+#watch img{
+    width:425px;
+    height:auto;
+}
+.woman{
+    left: 125px;
+    bottom: 165px;
+    width:505px;
+    height:auto;
+}
+
+.see{
+    font-size:56px;
+    line-height: 53px;
+    left: 200px;
+    top: 310px;
+}
+.all_about{
+    font-size:56px;
+    line-height: 53px;
+    left: 180px;
+    top: 360px;
+}
+#groceries_2{
+    bottom:222.22px;
+    left:185px;
+}
+.play{
+    width:141px;
+    height:auto;
+    
+}
+
+.discover{
+    font-size:44px;
+    line-height: 42px;
+    left: 80px;
+    top: 200px;
+}
+.creates{
+    font-size:44px;
+    line-height: 42px;
+    left: 100px;
+    top: 285px;
+}
+.woman_2{
+    margin-bottom:40px;
+    padding-bottom:40px;
+    width:505px;
+    height:auto;
+}
+.open{
+    font-size:33px;
+    line-height: 33px;
+    right: 170px;
+    top: 180px;
+
+}
+.long{
+    font-size:33px;
+    line-height: 33px;
+    right: 215px;
+    top: 215px;
+}
+.convenient{
+    font-size:18px;
+    line-height: 24px;
+    right: 165px;
+    top: 260px;
+}
+
+.guy{
+    margin-bottom:40px;
+    padding-bottom:40px;
+    width:478px;
+    height:auto;
+}
+.smooth{
+    font-size:33px;
+    line-height: 33px;
+    right: 120px;
+    top: 180px;
+
+}
+.buttering{
+    font-size:33px;
+    line-height: 33px;
+    right: 135px;
+    top: 215px;
+}
+.effort{
+    font-size:18px;
+    line-height: 24px;
+    right: 155px;
+    top: 280px;
+}
+
+.discover_2{
+    font-size:44px;
+    line-height: 42px;
+    left: 80px;
+    top: 200px;
+}
+
+.grocery_guy{
+    margin-bottom:40px;
+    padding-bottom:40px;
+    width: 564px;
+    height:auto;
+}
+.always{
+    font-size:33px;
+    line-height: 33px;
+    right: 210px;
+    top: 180px;
+
+}
+.suprise{
+    font-size:18px;
+    line-height: 24px;
+    right: 180px;
+    top: 250px;
+}
+
+
+.shopping{
+    font-size:44px;
+    line-height: 43px;
+    padding-top:50px;
+
+}
+.walk{
+    font-size:44px;
+    line-height: 43px;
+    margin-top:-11.11px;
+    margin-bottom:30px;
+
+}
+.steps{
+    margin-bottom:30px;
+    padding-bottom:30px;
+    width:576.56px;
+    height:auto;
+}
+.phone{
+    margin-bottom:30px;
+    padding-bottom:30px;
+    width:406.67px;
+    height:auto;
+}
+
+
+.drzewko{
+    padding-left:100px;
+    padding-top:100px;
+    padding-bottom:111.11px;
+    width:393px;
+    height:auto;
+}
+.care{
+    font-size:56px;
+    line-height: 53px;
+    top:186.67px;
+    left:50px;
+}
+.world{
+    font-size:56px;
+    line-height: 53px;
+    top:236.67px;
+    left:85px;
+}
+.break{
+    font-size:18px;
+    line-height: 24px;
+    top:346.67px;
+    left:40px;
+}
+
+.about{
+    font-size:20px;
+    line-height: 66px;
+ 
+}
+.details{
+    font-size:16px;
+    line-height: 13.9px;
+}
+
+#footer{
+    left:1300px;
+    font-size:23.4px;
+    line-height: 36px;
+}
+
+.policy{
+    padding-left:58px;
+    margin-left:58px;
+    font-size:16px;
+    line-height: 10px;
+}
+
+.copyrights{
+    padding-left:-58px;
+    margin-left:-78px;
+    font-size:16px;
+    line-height: 10px;
+}
+
+#social{
+    margin-bottom:40px;
+    padding-top:-30px;
+    margin-top:-30px;
+    margin-left:-10px;
+    padding-left:-10px;
+}
+
+.box{
+    border: 72px solid transparent;
+}
+        
+.box1{
+    border: 36px 36px 0px 0px solid transparent;
+}
+
+#uno{
+    padding-left:24.4px;
+    margin-left:24.4px;
+}
+
+#dos{
+    padding-left:-55.56px;
+    margin-left:-55.56px;
+}
+
+#tres{
+    padding-left:-88.89px;
+    margin-left:-88.89px;
+}
+
+#cuatro{
+    padding-left:-78.89px;
+    margin-left:-78.89px;
+}
+.fb{
+    width:65px;
+    height:auto;
+}
+.insta{
+    width:67px;
+    height:auto;
+}
+.tumblr{
+    width:66px;
+    height:auto;
+}
+
+.contact{
+    width:198px;
+    height:auto;
+    margin-top:13.89px;
+}
+
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1439px){
+
+    #logo img{
+     width: 174.8px;
+     height: auto;
+ }
+ #logo{
+     top:5.64px;
+     left:24.16px;
+ }
+ .elipse{
+    width:862.7px;
+    height:auto;
+}
+#menu_1{
+top:11.28px;
+right:229.59px;
+font-size:12.89px;
+line-height:50.75px;
+
+}
+#menu_2{
+ top:11.28px;
+ right:153.06px;
+ font-size:12.89px;
+ line-height: 50.75px;
+}
+
+#menu_3{
+ top:20.14px;
+ right: 24.16px;
+}
+#menu_3 img{
+width:87px;
+height:auto;
+}
+
+.everyday{
+ font-size:40px;
+ line-height: 37.86px;
+ left: 128.57px;
+ bottom: 307.14px;
+}
+.magical{
+ font-size:40px;
+ line-height: 37.86px;
+ left: 139.29px;
+ bottom: 230.71px;
+}
+.groceries{
+ font-size:12.86px;
+ line-height: 17.14px;
+ left: 139.29px;
+ bottom: 167.86px;
+}
+#watch{
+ bottom:103.57px;
+ left:117.86px;
+}
+#watch img{
+ width:303.57px;
+ height:auto;
+}
+.woman{
+ left: 89.29px;
+ bottom: 117.86px;
+ width:360.71px;
+ height:auto;
+}
+
+.see{
+ font-size:40px;
+ line-height: 37.86px;
+ left: 142.86px;
+ top: 221.43px;
+}
+.all_about{
+ font-size:40px;
+ line-height: 37.86px;
+ left: 128.57px;
+ top: 257.14px;
+}
+#groceries_2{
+ bottom:150.73px;
+ left:136.14px;
+}
+.play{
+ width:100.71px;
+ height:auto;
+ 
+}
+
+.discover{
+ font-size:31.43px;
+ line-height: 30px;
+ left: 61.14px;
+ top: 142.86px;
+}
+.creates{
+ font-size:31.43px;
+ line-height: 30px;
+ left: 71.43px;
+ top: 203.58px;
+}
+.woman_2{
+ margin-bottom:26.57px;
+ padding-bottom:26.57px;
+ width:360.71px;
+ height:auto;
+}
+.open{
+ font-size:23.57px;
+ line-height: 23.57px;
+ right: 121.43px;
+ top: 128.57px;
+
+}
+.long{
+ font-size:23.57px;
+ line-height: 23.57px;
+ right: 153.57px;
+ top: 153.57px;
+}
+.convenient{
+ font-size:12.86px;
+ line-height: 17.14px;
+ right: 117.86px;
+ top: 185.71px;
+}
+
+.guy{
+ margin-bottom:28.57px;
+ padding-bottom:28.57px;
+ width:341.43px;
+ height:auto;
+}
+.smooth{
+ font-size:23.57px;
+ line-height: 23.57px;
+ right: 85.71px;
+ top: 128.57px;
+
+}
+.buttering{
+ font-size:23.57px;
+ line-height: 23.57px;
+ right: 96.43px;
+ top: 153.57px;
+}
+.effort{
+ font-size:12.86px;
+ line-height: 17.14px;
+ right: 110.71px;
+ top: 200px;
+}
+
+.discover_2{
+ font-size:31.43px;
+ line-height: 30px;
+ left: 57.14px;
+ top: 142.86px;
+}
+
+.grocery_guy{
+ margin-bottom:28.57px;
+ padding-bottom:28.57px;
+ width: 402.86px;
+ height:auto;
+}
+.always{
+ font-size:23.57px;
+ line-height: 23.57px;
+ right: 150px;
+ top: 128.57px;
+
+}
+.suprise{
+ font-size:12.86px;
+ line-height: 17.14px;
+ right: 128.57px;
+ top: 178.57px;
+}
+
+
+.shopping{
+ font-size:31.43px;
+ line-height: 30.71px;
+ padding-top:35.71px;
+
+}
+.walk{
+ font-size:31.43px;
+ line-height: 30.71px;
+ margin-top:-7.94px;
+ margin-bottom:21.43px;
+
+}
+.steps{
+ margin-bottom:21.43px;
+ padding-bottom:21.43px;
+ width:411.83px;
+ height:auto;
+}
+.phone{
+ margin-bottom:21.43px;
+ padding-bottom:21.43px;
+ width:290.48px;
+ height:auto;
+}
+
+
+.drzewko{
+ padding-left:71.43px;
+ padding-top:71.43px;
+ padding-bottom:79.36px;
+ width:280.71px;
+ height:auto;
+}
+.care{
+ font-size:40px;
+ line-height: 37.86px;
+ top:133.34px;
+ left:35.71px;
+}
+.world{
+ font-size:40px;
+ line-height: 37.86px;
+ top:169.05px;
+ left:60.71px;
+}
+.break{
+ font-size:12.86px;
+ line-height: 17.14px;
+ top:247.62px;
+ left:28.57px;
+}
+
+.about{
+ font-size:14.29px;
+ line-height: 47.14px;
+
+}
+.details{
+ font-size:11.43px;
+ line-height: 9.93px;
+}
+
+#footer{
+ left:928.57px;
+ font-size:16.71px;
+ line-height: 25.71px;
+}
+
+.policy{
+ padding-left:41.43px;
+ margin-left:41.43px;
+ font-size:11.43px;
+ line-height: 7.14px;
+}
+
+.copyrights{
+ padding-left:-41.43px;
+ margin-left:-55.71px;
+ font-size:11.43px;
+ line-height: 7.14px;
+}
+
+#social{
+ margin-bottom:28.57px;
+ padding-top:-21.43px;
+ margin-top:-21.43px;
+ margin-left:-7.14px;
+ padding-left:-7.14px;
+}
+
+.box{
+ border: 51.43px solid transparent;
+}
+     
+.box1{
+ border: 25.71px 25.71px 0px 0px solid transparent;
+}
+
+#uno{
+ padding-left:17.43px;
+ margin-left:17.43px;
+}
+
+#dos{
+ padding-left:-39.69px;
+ margin-left:-39.69px;
+}
+
+#tres{
+ padding-left:-63.49px;
+ margin-left:-63.49px;
+}
+
+#cuatro{
+ padding-left:-56.35px;
+ margin-left:-56.35px;
+}
+.fb{
+ width:46.43px;
+ height:auto;
+}
+.insta{
+ width:47.86px;
+ height:auto;
+}
+.tumblr{
+ width:47.14px;
+ height:auto;
+}
+
+.contact{
+ width:141.43px;
+ height:auto;
+ margin-top:9.92px;
+}
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 1023px){
+
+    #logo img{
+     width: 134.46px;
+     height: auto;
+ }
+ #logo{
+     top:4.34px;
+     left:18.58px;
+ }
+
+ .elipse{
+    width:663.62px;
+    height:auto;
+}
+
+#menu_1{
+top:8.68px;
+right:176.60px;
+font-size:9.92px;
+line-height:39.04px;
+
+}
+#menu_2{
+ top:8.68px;
+ right:117.74px;
+ font-size:9.92px;
+ line-height: 39.04px;
+}
+
+#menu_3{
+ top:15.49px;
+ right: 18.58px;
+}
+#menu_3 img{
+width:66.92px;
+height:auto;
+}
+
+.everyday{
+ font-size:30.77px;
+ line-height: 29.12px;
+ left: 98.9px;
+ bottom: 236.26px;
+}
+.magical{
+ font-size:30.77px;
+ line-height: 29.12px;
+ left: 107.15px;
+ bottom: 177.47px;
+}
+.groceries{
+ font-size:9.89px;
+ line-height: 13.18px;
+ left: 107.15px;
+ bottom: 129.12px;
+}
+#watch{
+ bottom:79.67px;
+ left:90.66px;
+}
+#watch img{
+ width:233.52px;
+ height:auto;
+}
+.woman{
+ left: 68.68px;
+ bottom: 90.66px;
+ width:277.47px;
+ height:auto;
+}
+
+.see{
+ font-size:30.77px;
+ line-height: 29.12px;
+ left: 109.89px;
+ top: 170.33px;
+}
+.all_about{
+ font-size:30.77px;
+ line-height: 29.12px;
+ left: 98.9px;
+ top: 197.8px;
+}
+#groceries_2{
+ bottom:90.1px;
+ left:110.65px;
+}
+.play{
+ width:77.47px;
+ height:auto;
+ 
+}
+
+.discover{
+ font-size:24.18px;
+ line-height: 23.08px;
+ left: 49.96px;
+ top: 109.89px;
+}
+.creates{
+ font-size:24.18px;
+ line-height: 23.08px;
+ left: 59.95px;
+ top: 156.6px;
+}
+.woman_2{
+ margin-bottom:21.98px;
+ padding-bottom:21.98px;
+ width:277.47px;
+ height:auto;
+}
+.open{
+ font-size:18.13px;
+ line-height: 18.13px;
+ right: 93.4px;
+ top: 98.9px;
+
+}
+.long{
+ font-size:18.13px;
+ line-height: 18.13px;
+ right: 118.13px;
+ top: 118.13px;
+}
+.convenient{
+ font-size:9.89px;
+ line-height: 13.18px;
+ right: 90.66px;
+ top: 142.85px;
+}
+
+.guy{
+ margin-bottom:21.98px;
+ padding-bottom:21.98px;
+ width:262.64px;
+ height:auto;
+}
+.smooth{
+ font-size:18.13px;
+ line-height: 18.13px;
+ right: 65.93px;
+ top: 98.9px;
+
+}
+.buttering{
+ font-size:18.13px;
+ line-height: 18.13px;
+ right: 74.18px;
+ top: 118.13px;
+}
+.effort{
+ font-size:9.89px;
+ line-height: 13.18px;
+ right: 85.16px;
+ top: 153.85px;
+}
+
+.discover_2{
+ font-size:24.18px;
+ line-height: 23.08px;
+ left: 45.95px;
+ top: 109.89px;
+}
+
+.grocery_guy{
+ margin-bottom:21.98px;
+ padding-bottom:21.98px;
+ width: 309.89px;
+ height:auto;
+}
+.always{
+ font-size:18.13px;
+ line-height: 18.13px;
+ right: 111.38px;
+ top: 98.9px;
+
+}
+.suprise{
+ font-size:9.89px;
+ line-height: 13.18px;
+ right: 98.9px;
+ top: 137.36px;
+}
+
+
+.shopping{
+ font-size:24.18px;
+ line-height: 23.62px;
+ padding-top:27.47px;
+
+}
+.walk{
+ font-size:24.18px;
+ line-height: 23.62px;
+ margin-top:-6.1px;
+ margin-bottom:16.48px;
+
+}
+.steps{
+ margin-bottom:16.48px;
+ padding-bottom:16.48px;
+ width:316.79px;
+ height:auto;
+}
+.phone{
+ margin-bottom:16.48px;
+ padding-bottom:16.48px;
+ width:223.45px;
+ height:auto;
+}
+
+
+.drzewko{
+ padding-left:54.95px;
+ padding-top:54.95px;
+ padding-bottom:61.05px;
+ width:215.93px;
+ height:auto;
+}
+.care{
+ font-size:30.77px;
+ line-height: 29.12px;
+ top:102.57px;
+ left:27.47px;
+}
+.world{
+ font-size:30.77px;
+ line-height: 29.12px;
+ top:130.03px;
+ left:46.7px;
+}
+.break{
+ font-size:9.89px;
+ line-height: 13.18px;
+ top:185.48px;
+ left:25.98px;
+}
+
+.about{
+ font-size:10.99px;
+ line-height: 36.26px;
+
+}
+.details{
+ font-size:8.79px;
+ line-height: 7.64px;
+}
+
+#footer{
+ left:714.28px;
+ font-size:12.85px;
+ line-height: 19.78px;
+}
+
+.policy{
+ padding-left:31.87px;
+ margin-left:31.87px;
+ font-size:8.79px;
+ line-height: 5.49px;
+}
+
+.copyrights{
+ padding-left:-31.87px;
+ margin-left:-42.85px;
+ font-size:8.79px;
+ line-height: 5.49px;
+}
+
+#social{
+ margin-bottom:21.98px;
+ padding-top:-16.48px;
+ margin-top:-16.48px;
+ margin-left:-5.49px;
+ padding-left:-5.49px;
+}
+
+.box{
+ border: 39.56px solid transparent;
+}
+     
+.box1{
+ border: 19.78px 19.78px 0px 0px solid transparent;
+}
+
+#uno{
+ padding-left:13.4px;
+ margin-left:13.4px;
+}
+
+#dos{
+ padding-left:-30.53px;
+ margin-left:-30.53px;
+}
+
+#tres{
+ padding-left:-48.84px;
+ margin-left:-48.84px;
+}
+
+#cuatro{
+ padding-left:-43.35px;
+ margin-left:-43.35px;
+}
+.fb{
+ width:35.72px;
+ height:auto;
+}
+.insta{
+ width:36.82px;
+ height:auto;
+}
+.tumblr{
+ width:36.26px;
+ height:auto;
+}
+
+.contact{
+ width:108.79px;
+ height:auto;
+ margin-top:7.63px;
+}
+
+}
+
+@media only screen and (min-width:425px) and (max-width: 767px){
+
+    #logo img{
+     width: 74.7px;
+     height: auto;
+ }
+ #logo{
+     top:2.41px;
+     left:10.32px;
+ }
+ .elipse{
+    width:368.68px;
+    height:auto;
+}
+#menu_1{
+top:4.82px;
+right:98.11px;
+font-size:5.51px;
+line-height:21.69px;
+
+}
+#menu_2{
+ top:4.82px;
+ right: 65.41px;
+ font-size:5.51px;
+ line-height: 21.69px;
+}
+
+#menu_3{
+ top:1.6px;
+ right: 10.32px;
+}
+#menu_3 img{
+width:37.18px;
+height:auto;
+}
+
+.everyday{
+ font-size:17.09px;
+ line-height: 16.18px;
+ left: 60.95px;
+ bottom: 125.26px;
+}
+.magical{
+ font-size:17.09px;
+ line-height: 16.18px;
+ left: 65.53px;
+ bottom: 90.59px;
+}
+.groceries{
+ font-size:5.49px;
+ line-height: 7.32px;
+ left: 77.58px;
+ bottom: 63.73px;
+}
+#watch{
+ bottom:44.26px;
+ left:56.37px;
+}
+#watch img{
+ width:129.73px;
+ height:auto;
+}
+.woman{
+ left: 250.16px;
+ bottom: 50.37px;
+ width:154.15px;
+ height:auto;
+}
+
+.see{
+ font-size:17.09px;
+ line-height: 16.18px;
+ left: 61.05px;
+ top: 94.63px;
+}
+.all_about{
+ font-size:17.09px;
+ line-height: 16.18px;
+ left: 54.4px;
+ top: 109.90px;
+}
+#groceries_2{
+top:150.06px;
+left:71.47px;
+}
+.play{
+ width:43.04px;
+ height:auto;
+ left:335px;
+ top:115px;
+ 
+}
+
+.bg_1{
+    width:214px;
+    height:auto;
+    left:106px;
+}
+
+.discover{
+ font-size:13.43px;
+ line-height: 12.82px;
+ left: 27.76px;
+ top: 61.05px;
+ margin-left:10px;
+}
+.creates{
+ font-size:13.43px;
+ line-height: 12.82px;
+ left: 33.3px;
+ top: 87px;
+ margin-left:10px;
+}
+.woman_2{
+ margin-bottom:12.21px;
+ padding-bottom:12.21px;
+ width:154.15px;
+ height:auto;
+ margin-left:-150px;
+ 
+}
+
+.open{
+    font-size:10.07px;
+    line-height: 10.07px;
+    right: 51.89px;
+    top: 54.94px;
+
+}
+.long{
+ font-size:10.07px;
+ line-height: 10.07px;
+ right: 65.63px;
+ top: 65.63px;
+}
+.convenient{
+ font-size:5.49px;
+ line-height: 7.32px;
+ right: 50.37px;
+ top: 79.36px;
+}
+
+.guy{
+ margin-bottom:12.21px;
+ padding-bottom:12.21px;
+ width:145.91px;
+ height:auto;
+ margin-left:-150px;
+}
+.smooth{
+ font-size:10.07px;
+ line-height: 10.07px;
+ right: 36.63px;
+ top: 54.94px;
+
+}
+.buttering{
+ font-size:10.07px;
+ line-height: 10.07px;
+ right: 41.19px;
+ top: 65.63px;
+}
+.effort{
+ font-size:5.49px;
+ line-height: 7.32px;
+ right: 47.31px;
+ top: 85.47px;
+}
+
+.discover_2{
+ font-size:13.43px;
+ line-height: 12.82px;
+ left: 25.53px;
+ top: 61.05px;
+ margin-left:10px;
+}
+
+.grocery_guy{
+ margin-bottom:12.21px;
+ padding-bottom:12.21px;
+ width: 172.16px;
+ height:auto;
+ margin-left:-150px;
+}
+.always{
+ font-size:10.07px;
+ line-height: 10.07px;
+ right: 61.88px;
+ top: 54.94px;
+
+}
+.suprise{
+ font-size:5.49px;
+ line-height: 7.32px;
+ right: 54.94px;
+ top: 76.31px;
+}
+
+
+.shopping{
+ font-size:13.43px;
+ line-height: 13.12px;
+ padding-top:15.26px;
+
+}
+.walk{
+ font-size:13.43px;
+ line-height: 13.12px;
+ margin-top:-3.39px;
+ margin-bottom:9.16px;
+
+}
+.steps{
+ margin-bottom:16.48px;
+ padding-bottom:16.48px;
+ width:316.79px;
+ height:auto;
+}
+.phone{
+ margin-bottom:16.48px;
+ padding-bottom:16.48px;
+ width:223.45px;
+ height:auto;
+}
+
+
+.drzewko{
+ padding-left:54.95px;
+ padding-top:54.95px;
+ padding-bottom:61.05px;
+ width:215.93px;
+ height:auto;
+}
+.care{
+ font-size:30.77px;
+ line-height: 29.12px;
+ top:102.57px;
+ left:27.47px;
+}
+.world{
+ font-size:30.77px;
+ line-height: 29.12px;
+ top:130.03px;
+ left:46.7px;
+}
+.break{
+ font-size:9.89px;
+ line-height: 13.18px;
+ top:185.48px;
+ left:25.98px;
+}
+
+.about{
+ font-size:10.99px;
+ line-height: 36.26px;
+
+}
+.details{
+ font-size:8.79px;
+ line-height: 7.64px;
+}
+
+#footer{
+ left:714.28px;
+ font-size:12.85px;
+ line-height: 19.78px;
+}
+
+.policy{
+ padding-left:31.87px;
+ margin-left:31.87px;
+ font-size:8.79px;
+ line-height: 5.49px;
+}
+
+.copyrights{
+ padding-left:-31.87px;
+ margin-left:-42.85px;
+ font-size:8.79px;
+ line-height: 5.49px;
+}
+
+#social{
+ margin-bottom:21.98px;
+ padding-top:-16.48px;
+ margin-top:-16.48px;
+ margin-left:-5.49px;
+ padding-left:-5.49px;
+}
+
+.box{
+ border: 39.56px solid transparent;
+}
+     
+.box1{
+ border: 19.78px 19.78px 0px 0px solid transparent;
+}
+
+#uno{
+ padding-left:13.4px;
+ margin-left:13.4px;
+}
+
+#dos{
+ padding-left:-30.53px;
+ margin-left:-30.53px;
+}
+
+#tres{
+ padding-left:-48.84px;
+ margin-left:-48.84px;
+}
+
+#cuatro{
+ padding-left:-43.35px;
+ margin-left:-43.35px;
+}
+.fb{
+ width:35.72px;
+ height:auto;
+}
+.insta{
+ width:36.82px;
+ height:auto;
+}
+.tumblr{
+ width:36.26px;
+ height:auto;
+}
+
+.contact{
+ width:108.79px;
+ height:auto;
+ margin-top:7.63px;
+}
+
+}
